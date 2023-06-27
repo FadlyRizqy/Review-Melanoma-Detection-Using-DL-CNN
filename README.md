@@ -1,10 +1,10 @@
-# Melanoma-Detection-Assignment-using-custom-cnn
+# Melanoma-Detection-using-using-custom-cnn
 >
-> This project uses a custom CNN to detect melanoma in images of skin lesions among 10 classes. The Gradio library is used to create a web app for the model prediction. The model predicts with a 87% accuracy.
+> This project uses a custom CNN to detect melanoma in images of skin lesions among 10 classes. The Gradio library is used to create a web app for the model prediction. The model predicts with an 87% accuracy.
 
 ## Table of Contents
 
-- [Melanoma-Detection-Assignment-using-custom-cnn](#melanoma-detection-assignment-using-custom-cnn)
+- [Melanoma-Detection-using-using-custom-cnn](#melanoma-detection-assignment-using-custom-cnn)
   - [Table of Contents](#table-of-contents)
   - [General Information](#general-information)
     - [Algorithms Used](#algorithms-used)
@@ -29,7 +29,7 @@ Convolutional Neural Network
 
 ### Dataset Information
 
-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed by the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 The data set contains the following diseases:
 
@@ -48,7 +48,7 @@ The data set contains the following diseases:
 - Data Loading
 - Baseline Model Building
 - Training the Model and testing the model
-- Building augmented model
+- Building an augmented model
 - Training the augmented model and testing the model
 - Countering Class Imbalance with augmentor
 - Building the final model
